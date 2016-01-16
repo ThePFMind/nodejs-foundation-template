@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-foundation-template",
+  "version": "1.0.0",
+  "description": "Nodejs + foundation template",
+  "main": "app.js",
+  "dependencies": {
+    "gulp-autoprefixer": "^3.1.0",
+    "handlebars": "^4.0.5",
+    "hapi": "^12.1.0",
+    "hoek": "^3.0.4",
+    "inert": "^3.2.0",
+    "vision": "^4.0.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-sass": "^2.1.0",
+    "rimraf": "^2.4.3",
+    "run-sequence": "^1.1.0"
+  },
+  "scripts": {
+    "start": "nodemon",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ThePFMind/nodejs-foundation-template.git"
+  },
+  "author": "ThePFMind <thepfmind@gmail.com>",
+  "license": "MIT",
+  "private": true
+}

@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-foundation-template",
+  "version": "1.0.0",
+  "authors": [
+    "ThePFMind <thepfmind@gmail.com>"
+  ],
+  "description": "Basic template for a new Nodejs + Foundation for Sites project.",
+  "license": "MIT",
+  "dependencies": {
+    "foundation-sites": "~6.1.0",
+    "motion-ui": "~1.1.0"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "private": true
+}
