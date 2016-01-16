@@ -19,7 +19,9 @@ var PATHS = {
 // Delete the "dist" folder
 // This happens every time a build starts
 gulp.task('clean', function (done) {
-  rimraf('public/js/libs', done);
+  rimraf('public/js/libs', (err) => {
+      rimraf('public/css/libs', done);
+  });
 });
 
 // Compile Sass into CSS
@@ -33,7 +35,7 @@ gulp.task('sass', function () {
       browsers: ['last 2 versions', 'ie >= 9']
     }))
 
-    .pipe(gulp.dest('css'));
+    .pipe(gulp.dest('public/css/libs'));
 });
 
 // Copy files to assets folder
